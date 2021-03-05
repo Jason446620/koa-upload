@@ -1,0 +1,41 @@
+{
+  "name": "koademo",
+  "description": "node-server with koa2.js",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiawang1024/koa-template.git"
+  },
+  "keywords": [
+    "koa-template"
+  ],
+  "author": "koa_user",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.4.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "mime-types": "^2.1.29",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "apidoc": "^0.20.0",
+    "nodemon": "^2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/xiawang1024/koa-template/issues"
+  },
+  "engines": {
+    "node": ">= 7.6"
+  },
+  "homepage": "https://github.com/xiawang1024/koa-template#readme"
+}
